@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+
+#LB{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#H{
+    padding-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover{
+    border-bottom: 3px solid grey;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#SB{
+    color: white;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+#S{
+    margin-top: 11px;
+    height: 15px;
+    width: 15px;
+}
+#MD{
+    display: flex;
+    width: 100%;
+    height: 1750px;
+}
+footer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 0 5%;
+}
+#SM{
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+}
+.myVideo {
+    background: cover   ;
+    width: 100%;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    margin-top: 80px;
+    top: 0;
+    height: 200px;
+    left: 0;
+    width: 100%;
+}
+.pics {
+    margin-top: 250px;
+    width: 1350px;
+}
+.pic-box {
+    display: flex;
+    justify-content: center;
+}
+
+.four-pic {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+.four {
+    margin-bottom: 40px;
+}
+.border {
+    margin-left: 30px;
+}
+#IMG{
+    width: 265px;
+    height: 160px;
+}
+
+.pic-square > * {
+    width: 100%;
+}
+#MM{
+    margin-left: 150px;
+}
+#E{
+    margin-top: 8px;
+    font-size: 17px;
+    color: white;
+}
+.MT{
+    color: rgb(255, 0, 51);
+    margin-left: 170px;
+    margin-bottom: 35px;
+}
+#B{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
