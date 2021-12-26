@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+
+#LB{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#H{
+    padding-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover{
+    border-bottom: 3px solid grey;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#SB{
+    color: white;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+#S{
+    margin-top: 11px;
+    height: 15px;
+    width: 15px;
+}
+#MD{
+    display: flex;
+    width: 100%;
+    height: 1750px;
+}
+footer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 0 5%;
+}
+#SM{
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+}
+.myVideo {
+    background: cover   ;
+    width: 100%;
+    
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    margin-top: 80px;
+    top: 0;
+    height: 200px;
+    left: 0;
+    width: 100%;
+}
+.pics {
+    margin-top: 250px;
+    width: 1350px;
+}
+.pic-box {
+    display: flex;
+    justify-content: center;
+}
+
+.four-pic {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+.four {
+    margin-bottom: 40px;
+}
+.border {
+    margin-left: 30px;
+}
+#IMG{
+    width: 265px;
+    height: 160px;
+}
+
+.pic-square > * {
+    width: 100%;
+}
+#MM{
+    margin-left: 150px;
+}
+#E{
+    margin-top: 8px;
+    font-size: 17px;
+    color: white;
+}
+.MT{
+    color: rgb(255, 0, 51);
+    margin-left: 170px;
+    margin-bottom: 35px;
+}
+#B{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+/*
+Prej Ketu Fillon nje pjese e CSS per SIGN in page
+*/
+
+.Size{
+    width: 100%;
+    height: 800px;
+}
+.show-content{
+    display: block;
+}
+.hidden-content{
+    display: none;
+}
+#SignIn-BOX{
+    position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    border: solid white 2px;
+    width: 400px;
+    height: 400px;
+    margin-left: 745px;
+    margin-top: 200px;
+}
+.Logo{
+    position: absolute;
+    margin-left: 798px;
+    margin-top: 165px;
+
+
+}
+.Info{
+    color: white;
+}
+#Poz1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+#Poz2{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    margin-top: 110px;
+    margin-left: 100px;
+}
+#Poz3{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 160px;
+}
+#Poz4{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+#Poz5{
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 160px;
+}
+/*
+Ketu FIllon Kodi per Sign Up
+*/
+#Poz6{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 175px;
+}
+#Poz7{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+#Poz8{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 167px;
+}
+#Poz9{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#Poz10{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 165px;
+}
+#Poz11{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 100px;
+}
+#Poz12{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 152px;
+}
+#Poz13{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+#Poz14{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 175px;
+}
+#Poz15{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 100px;
+}
+#Poz16{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 166px;
+}
+#Poz17{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 100px;
+}
+/*
+Ketu FIllon Kodi per pjesen e faqes qe do te Shfaqe videot
+*/
+.VB{
+    display: flex;
+    border: 2px solid grey;
+    height: 700px;
+    width: 1500px;
+    margin-left: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.Titulli{
+    color: rgb(255, 0, 51);
+    margin-left: 250px;
+    margin-top: 20px;
+}
+#DescriptTXT{
+    color: white;
+    font-size: 17px;
+}
+#DescriptBox{
+    width: 1300px;
+    margin-left: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
