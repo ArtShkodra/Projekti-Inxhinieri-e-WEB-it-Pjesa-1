@@ -12,16 +12,18 @@
             <img src="Logo.PNG" id="L">
         </a>
         <nav>
-            <a href="BingeCinema.html#TVS"><li id="H">TV Shows</li></a>
-            <a href="BingeCinema.html#Movies"><li id="H">Movies</li></a>
-            <a href="BingeCinema.html#Anime"><li id="H">Anime</li></a>
-            <a href="BingeCinema.html#ForKids"><li id="H">ForKids</li></a>
-            <a href="BingeCinema.html#Latest"><li id="H" style="margin-right: 550px;">Latest</li></a>
+        <a href="#TVS"><li id="H">TV Shows</li></a>
+            <a href="#Movies"><li id="H">Movies</li></a>
+            <a href="#Anime"><li id="H">Anime</li></a>
+            <a href="#ForKids"><li id="H">ForKids</li></a>
+            <a href="#Latest"><li id="H" style="margin-right: 550px;">Latest</li></a>
             <input type="text" placeholder="Search..." name="search" id="SB">
             <button><img src="Search.png" id="S"></button>
             <a href="Sign In.html"><li id="H" style="margin-left: 10px;">Sign In</li></a>
             <p style="color: white;font-size: 30px;margin-top: 10px;padding-right: 18px;">/</p>
             <a href="Sign Up.html"><li id="H">Sign Up</li></a>
+            <p style="color: white;font-size: 30px;margin-top: 10px;padding-right: 18px;">/</p>
+            <a href="SignInAdmin.php" style="color: white;font-size: 20px;" ><li id="H">Admin</li></a>
         </nav>
     </header>
     <main>
